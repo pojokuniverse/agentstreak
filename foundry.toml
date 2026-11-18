@@ -1,0 +1,12 @@
+[profile.default]
+src = "contracts"
+test = "test"
+script = "script"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.20"
+optimizer = true
+optimizer_runs = 200
+
+# AgentStreak — Binance Wallet Agent ID Hackathon entry.
+# No external libraries are used; the contract and tests are dependency-free.
